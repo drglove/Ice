@@ -30,3 +30,27 @@
 # [SNES9X-GTK]
 # location=/usr/bin/snes9x-gtk
 # command=%l %r
+
+[Dolphin]
+location=E:\Emulators and Roms\Emulators\Gamecube\Dolphin\Dolphin.exe
+command=%l --batch --exec=%r
+
+[PCSX2]
+location=E:\Emulators and Roms\Emulators\PS2\PCSX2 1.2.1\pcsx2-r5875.exe
+command=%l %r
+
+[Project64]
+location=E:\Emulators and Roms\Emulators\N64\Project64 2.2\Project64.exe
+command=%l %r
+
+[VisualBoyAdvanceM]
+location=E:\Emulators and Roms\Emulators\Gameboy\Visual Boy Advance\VisualBoyAdvance-M-WX.exe
+command=%l --fullscreen %r
+
+[ZSNES]
+location=E:\Emulators and Roms\Emulators\Snes\ZSnes\zsnesw.exe
+command=%l -m %r
+
+[DeSmuME]
+location=E:\Emulators and Roms\Emulators\DS\DeSmuME\NDeSmuME.exe
+command=%l %r
